@@ -46,7 +46,7 @@
 }
 
 #template_raava .template_main::after {
-  background-image: url(https://cdn.discordapp.com/attachments/807064384605519904/843616842094346280/62be2b1f4c17afb234a0b5d467b7dfd6_2166077689396013147.png);
+  background-image: url(https://i.pinimg.com/564x/12/22/b5/1222b53677b7037b9491fb10e3c6afff.jpg);
   background-size: cover;
   background-position-y: center;
   display: inline-block;
