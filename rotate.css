@@ -1,10 +1,9 @@
-.alipBotao{display: none;} 
+.alipBotao{display: none;}
 .alipSMain{margin: auto; position: relative; width: 400px; pointer-events: none;}
 .alipSpoiler, .alipSImage{
     width: 400px;
     min-height: 200px;
     height: auto;
-    background-color: #232323;
     margin: auto;
     box-sizing: border-box;
     padding: 20px;
@@ -14,16 +13,20 @@
     transform: rotateY(-180deg);
     transition: opacity 0s ease 0.27s, transform 1s ease;
     opacity: 0;
+    height: 200px;
+    background-color: #232323;
 }
 .alipSImage{
     cursor: pointer;
     pointer-events: initial;
     position: absolute;
-    background-image: url(https://i.pinimg.com/564x/48/30/67/483067c1265c84d895bb48c8fd85101e.jpg);
+    background-image: url(https://images-ext-2.discordapp.net/external/KaMG0MmfJ89K2Sh8aaRdywz9d07NFBByKBB8p3uKdUc/https/i.imgur.com/pAfGKjV.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     transform: rotateY(0deg);
     transition: opacity 0s ease 0.27s, transform 1s ease;
 }
 .alipBotao:checked ~ .alipSImage{transform: rotateY(180deg); opacity: 0; pointer-events: none;}
-.alipBotao:checked ~ .alipSpoiler{transform: rotateY(0deg); opacity: 1;}
-.alipBotao:checked ~ .alipSpoiler .texto{pointer-events: initial;}
+.alipBotao:checked ~ .alipSpoiler{transform: rotateY(0deg); opacity: 1; height: auto;}
 .alipSpoiler::before{position: absolute; color: white; font-family: Arial; font-size: 20px; font-weight: 800; cursor: pointer; right: 10px; top: 5px; content: 'X'; pointer-events: initial;}
