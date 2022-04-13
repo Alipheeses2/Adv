@@ -1,4 +1,4 @@
-.alipBotao{display: none;}
+.alipBotao{display: none;} 
 .alipSMain{margin: auto; position: relative; width: 400px; pointer-events: none;}
 .alipSpoiler, .alipSImage{
     width: 400px;
